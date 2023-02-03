@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-family: 'Copperplate', Tahoma, Helvetica;
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 170px;
+    padding-top: 20px;
+    line-height: 4px;
+    min-width: 200px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.header-link {
+    font-family: 'Copperplate', Tahoma, Helvetica;
+    text-decoration: none;
+    font-weight: 100;
+    color: #F9FAF8;
+    padding: 15px;
+    min-width: max-content;
+    opacity: 0.8;
+}
